@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:onion"
+    },
+	{
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "farmersdelight:cabbage"
+    }
+  ],
+  "result": {
+    "item": "techsupportred:shishkebab"
+  },
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "cookingtime": 200
+}

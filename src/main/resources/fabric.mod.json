@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "techsupportred",
+	"version": "1.0.0",
+	"name": "Kebabs Delight",
+	"description": "This mod adds kebabs to minecraft!",
+	"authors": [
+		"TechSupportRed"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/shakshuka-delight"
+	},
+	"license": "CC Attribution 1.0 Generic",
+	"icon": "assets/techsupportred/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.techsupportred.KebabsDelight"
+		],
+		"client":[
+			"com.techsupportred.KebabsDelightClient"
+		]
+	},
+	"mixins": [
+		"techsupportred.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"farmersdelight": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

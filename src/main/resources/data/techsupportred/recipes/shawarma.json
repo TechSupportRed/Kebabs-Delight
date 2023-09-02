@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "techsupportred:grilledchicken"
+    },
+    {
+      "item": "farmersdelight:cabbage"
+    }
+  ],
+  "result": {
+    "item": "techsupportred:shawarma"
+  },
+  "container": {
+    "item": "farmersdelight:wheat_dough"
+  },
+  "cookingtime": 200
+}

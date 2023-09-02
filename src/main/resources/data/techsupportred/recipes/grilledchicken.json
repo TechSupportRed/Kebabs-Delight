@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:cooked_chicken"
+  },
+  "result": "techsupportred:grilledchicken",
+  "experience": 0.35,
+  "cookingtime": 150
+}
